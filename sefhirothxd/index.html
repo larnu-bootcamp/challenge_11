@@ -19,11 +19,11 @@
         <h1>Sign in</h1>
         <p>Stay updated on your professional world</p>
       </div>
-      <form>
+      <form class="form-login">
         <div class="container-btn">
-          <input class="container-btn__email" type="text" placeholder="Email or Phone" />
+          <input class="container-btn__email" type="email"  placeholder="Email or Phone" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" required/>
           <div class="container-btn__password">
-            <input type="text" placeholder="Password" />
+            <input type="password" placeholder="Password" minlength="3" required/>
             <button class="container-btn__password-show">show</button>
           </div>
         </div>
@@ -44,5 +44,22 @@
           Sing in width Apple</button>
       </div>
     </div>
+    <script>
+      const form = document.querySelector('.form-login');
+      const btnShow = document.querySelector('.container-btn__password-show');
+      const inputPassword = document.querySelector('.container-btn__password input');
+
+      form.addEventListener('submit', (e) => {
+        e.preventDefault();
+      });
+      btnShow.addEventListener('click', (e) => {
+        e.preventDefault();
+        if (inputPassword.type === 'password') {
+          inputPassword.type = 'text';
+        } else {
+          inputPassword.type = 'password';
+        }
+      });
+    </script>
   </body>
 </html>
