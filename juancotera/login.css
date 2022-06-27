@@ -1,0 +1,64 @@
+.login {
+  background: var(--white);
+  margin: 1.5rem;
+  padding: 1rem;
+  box-shadow: -1px 9px 11px -6px #919191;
+    -webkit-box-shadow: -1px 9px 11px -6px #919191;
+    -moz-box-shadow: -1px 9px 11px -6px #919191;
+}
+
+.login h1 {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.login p {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: .8rem;
+}
+
+.hr {
+  text-align: center;
+}
+
+p.hr::before {
+  content: "";
+  display: inline-block;
+  margin-bottom: 3px;
+  margin-right: 3px;
+  width: 45%;
+  height: 1px;
+  background-color: #d5d5d5;
+}
+
+p.hr::after {
+  content: "";
+  display: inline-block;
+  margin-bottom: 3px;
+  margin-left: 3px;
+  width: 45%;
+  height: 1px;
+  background-color: #d5d5d5;
+}
+
+.social {
+  display: flex;
+  border: 1px solid var(--black);
+  border-radius: 2rem;
+  margin-bottom: .5rem;
+  padding: .5rem;
+  justify-content: center;
+  align-items: center;
+  gap: .5rem;
+
+}
+
+.social img {
+  width: 20px;
+  height: 20px;
+}
+
+.social p {
+  margin: 0;
+  color: var(--black);
+}

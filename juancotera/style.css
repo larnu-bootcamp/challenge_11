@@ -1,3 +1,7 @@
+@import 'wrapper.css';
+@import 'login.css';
+@import 'form.css';
+
 :root {
   --black: #414141;
   --white: #fff;
@@ -10,5 +14,10 @@ body {
 
 .container {
   background-color: var(--black);
-  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  overflow: hidden;
+  margin: 8 0;
 }
