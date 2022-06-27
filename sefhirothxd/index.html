@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <ul>
+      <li>
+        <a class="link" href="../index.html">Link de regreso</a>
+      </li>
+    </ul>
+    <div class="container">
+      <div class="container-text"">
+        <h1>Sign in</h1>
+        <p>Stay updated on your professional world</p>
+      </div>
+      <form class="form-login">
+        <div class="container-btn">
+          <input class="container-btn__email" type="email"  placeholder="Email or Phone" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" required/>
+          <div class="container-btn__password">
+            <input type="password" placeholder="Password" minlength="3" required/>
+            <button class="container-btn__password-show">show</button>
+          </div>
+        </div>
+        <a href="#" class="container__text-forgot-password">Forgot password?</a>
+        <button class="container__btn-submit">Sign in</button>
+      </form>
+      <div class="container-or__text-line">
+        <hr/>
+        <p class="container-p-or">or</p>
+        <hr/>
+      </div>
+      <div class="container-btn-login">
+        <button>
+          <img src="https://api.iconify.design/logos:google-icon.svg" alt="icon google">
+          Sing in width Google</button>
+        <button>
+          <img src="https://api.iconify.design/simple-icons:apple.svg" alt="icon google">
+          Sing in width Apple</button>
+      </div>
+    </div>
+    <script>
+      const form = document.querySelector('.form-login');
+      const btnShow = document.querySelector('.container-btn__password-show');
+      const inputPassword = document.querySelector('.container-btn__password input');
+
+      form.addEventListener('submit', (e) => {
+        e.preventDefault();
+      });
+      btnShow.addEventListener('click', (e) => {
+        e.preventDefault();
+        if (inputPassword.type === 'password') {
+          inputPassword.type = 'text';
+        } else {
+          inputPassword.type = 'password';
+        }
+      });
+    </script>
+  </body>
+</html>
