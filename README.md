@@ -27,5 +27,5 @@ touch style.css
 
 Ahora que tienes los archivos base, debes llegar al siguiente diseño:
 
-<img src="design.png" width="300" height="500">
+<img src="design.png" width="300" height="450">
 
