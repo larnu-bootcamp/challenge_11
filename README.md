@@ -27,5 +27,5 @@ touch style.css
 
 Ahora que tienes los archivos base, debes llegar al siguiente diseño:
 
-![Alt text](design.png "Title")
+<img src="design.png" width="450" height="812">
 
