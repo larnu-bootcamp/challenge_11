@@ -1,0 +1,160 @@
+/* * {
+  padding: 0;
+  margin: 0;
+} */
+
+body{
+  padding: 0;
+  margin: 0;
+  height: 100vh;
+  font-family: sans-serif;
+  box-sizing: border-box;
+}
+
+.container {
+  height: 100vh;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.form {
+  width: 200px;
+  height: 400px;
+  padding: 8%;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0px 0px 20px black;
+}
+
+
+.socialBtn {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.formSocial {
+  width: 100%;
+  position: relative;
+}
+
+.formSocial input {
+  width: 90%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid grey;
+  padding-left: 35px !important;
+  border-radius: 20px;
+}
+
+.formSocial img {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  left: 0px;
+  top: 0px;
+  color: grey;
+  font-size: smaller;
+  margin: 9px !important;
+}
+
+.formSocial input::placeholder {
+  color: black;
+}
+
+.icon {
+  width: 30px;
+  height: 30px;
+  border-radius: 15px;
+  background-color: lavender;
+  margin: 5px;
+  line-height: 30px;
+  box-shadow: 0px 0px 10px black;
+}
+
+.text {
+  font-size: small;
+}
+
+.orDiv {
+  width: 10%;
+  margin: 0 auto;
+  background-color: white;
+  /* Allow beetween hr allocation */
+  position: relative;
+  top: -16px;
+  justify-content: center;
+  font-size: 11px;
+  padding-left: 10px;
+}
+
+.formGroup {
+  width: 100%;
+  position: relative;
+}
+
+.formGroup input {
+  width: 90%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid grey;
+  padding-left: 30px !important;
+}
+
+.formGroup i {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  color: grey;
+  font-size: smaller;
+  margin: 10px !important;
+}
+
+input::placeholder {
+  position: relative;
+}
+
+input:focus{
+  border-color: red;
+}
+
+.forgotten h6{
+  display: flex;
+  margin: 0 auto;
+  padding-bottom: 10px;
+  cursor: pointer;
+}
+
+.forgotten h6:hover{
+  color: red;
+}
+
+.btn {
+  width: 100%;
+  padding: 10px;
+  background-color: rgb(24, 65, 179);
+  margin-top: 15px;
+  margin-bottom: 15px;
+  color: white;
+  border-radius: 20px;
+  border-style: none;
+}
+
+
+.btn:hover, .icon:hover {
+  background-color: rgb(31, 91, 255);
+  color: whitesmoke;
+}
+
+.show {
+  position: absolute;
+  left: 170px;
+  top: 0px;
+  color: blue;
+  font-weight: bold;
+  font-size: 11px;
+  margin: 12px !important;
+  cursor: pointer;
+}
