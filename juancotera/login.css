@@ -3,8 +3,8 @@
   margin: 1.5rem;
   padding: 1rem;
   box-shadow: -1px 9px 11px -6px #919191;
-    -webkit-box-shadow: -1px 9px 11px -6px #919191;
-    -moz-box-shadow: -1px 9px 11px -6px #919191;
+  -webkit-box-shadow: -1px 9px 11px -6px #919191;
+  -moz-box-shadow: -1px 9px 11px -6px #919191;
 }
 
 .login h1 {
