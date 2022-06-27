@@ -25,17 +25,19 @@ touch index.html
 touch style.css
 ```
 
-# codear en tu archivo html y css
+# codea en tu archivo html y css
 
 _Ahora que tienes los archivos base, debes llegar al siguiente diseño:_
 
 <img src="design.png" width="300" height="450">
 
+*recuerda seguir las buenas prácticas y aplicar todo lo que has aprendido hasta el momento.*
+
 
 
 # Finalizando 🏁
 
-Ahora debes crear un nuevo enlace en el archivo index.html que lleve a tu pagina (fijate como esta creado example/index.html)
+Ahora debes crear un nuevo enlace en el archivo index.html que lleve a tu página (fijate como esta creado example/index.html)
 
 Comenta tus cambios y sube tu rama a github.
 
@@ -45,4 +47,6 @@ git add index.html
 git commit -m "comentario"
 git push origin feature/<tu-usuario-github>
 ```
+
+Finalmente Crea un nuevo pull request de tu rama apuntando a main
 
