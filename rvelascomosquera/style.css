@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap');
+
+:root {
+  --color-text: rgba(5, 5, 5, 0.575);
+  --color-border: rgba(0, 0, 0, 0.432);
+  --color-button: #2e63b8;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.card {
+  width: 35vw;
+  height: 65vh;
+  box-shadow: 1px 0px 8px -1px rgba(0,0,0,0.75);
+  margin: auto;
+  border-radius: 10px;
+  padding: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+h1 {
+  font-size: 2.5em;
+  font-weight: 700;
+}
+
+h4 {
+  font-size: 1em;
+  padding: 5px 0;
+  font-weight: 400;
+}
+
+.description {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 15px 0;
+}
+
+.password {
+  border-radius: 5px;
+  border: 1px solid var(--color-border);
+  display: flex;
+  text-align: center;
+  justify-content: space-between;
+}
+
+.password__show {
+  margin: auto 0;
+  padding: 0 15px;
+  color: #2D64BC;
+}
+
+a {
+  text-decoration: none;
+  font-size: 1.2em;
+  font-weight: 500;
+}
+
+input {
+  font-size: 1.1em;
+  padding: 15px;
+  border: 1px solid var(--color-border);
+  border-radius: 5px;
+}
+
+.input--text {
+  border: none;
+}
+
+.login {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: center;
+  text-align: center;
+}
+
+.login__button {
+  border: 1px solid var(--color-border);
+  border-radius: 30px;
+  color: var(--color-text);
+  padding: 12px; 
+  font-size: 1.2em;
+  font-weight: 400;
+}
+
+.button--color {
+  background-color:var(--color-button);
+  color: white;
+  border: none;
+  text-align: center;
+}
+
+.fa-brands {
+  font-size: 25px;
+  padding: 0 10px;
+}
+
+.fa-apple {
+  color: black;
+}
+
+.line {
+  text-align: center;
+}
+
+p {
+display: inline-block;
+position: relative;
+color: var(--color-border);
+padding: 0 8px;
+}
+
+p::after, p::before {
+  content: '';
+  position: absolute;
+  width: 14vw;
+  height: 1px;
+  background-color: currentColor;
+  top: 0.6em;
+}
+
+p::after{
+  left: -14vw;
+}
+
+p::before{
+  right: -14vw;
+}
+
