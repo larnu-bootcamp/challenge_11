@@ -1,0 +1,180 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* outline: 1px solid limegreen !important; */
+}
+
+:root {
+  font-family: sans-serif;
+  font-weight: 600;
+}
+
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: lightgrey;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  width: 30vw;
+  height: 55vh;
+  border-radius: 10px;
+  box-shadow: 2px -1px 16px 3px rgba(0,0,0,0.54);
+-webkit-box-shadow: 2px -1px 16px 3px rgba(0,0,0,0.54);
+-moz-box-shadow: 2px -1px 16px 3px rgba(0,0,0,0.54);
+font-family: var(font-family);
+}
+
+.title  {
+  width: 100%;
+}
+
+.text {
+  width: 90%;
+  margin: 10px;
+}
+
+h3 {
+  margin-bottom: 1vh;
+  margin-left: 1vw;
+  font-weight: var(font-weight);
+  font-size: 32px;
+}
+
+h4 {
+  font-weight: 200;
+  margin-left: 1vw;
+}
+
+.entries {
+  width: 90%;
+  height: 6vh;
+  margin-left: 1.5vw;
+  align-items: center;
+  border-radius:10px;
+  margin-top: 15px;
+  text-align: start;
+  padding-left: 10px;
+  font-size: 18px;
+  margin-bottom: 10px;
+  border: 1px solid black;
+}
+
+button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 90%;
+  border-radius: 80px;
+  gap: 10px;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  padding-left: 2vw;
+  padding-top: 1vh;
+  color: rgb(7, 119, 210);
+  font-weight: var(font-weight);
+}
+
+p {
+  margin-top: 1vh;
+  margin-bottom: 1vh;
+}
+
+.orlines {
+  font-weight: 100;
+  font-size: 14px;
+  position: relative;
+  text-align: center;
+  max-width: 60%;
+}
+
+/* .orlines::before {
+content:"";
+display:block;
+width:120px;
+height:2px;
+background:#000;
+position:absolute;
+left:0;
+top:50%;
+} */
+
+a:hover {
+  text-decoration:underline;
+  padding-left: 2vw;
+  color: rgb(9, 193, 249);
+}
+
+
+.sing-in{
+  margin-top: 1vh;
+  font-family:fantasy ;
+  font-weight: 500;
+  font-size: 18px;
+  height: 10%;
+  background-color: rgb(10, 76, 231);
+  color: white;
+  cursor: pointer;
+}
+
+.or {
+  font-weight: 100;
+  margin-left: 35px;
+  text-align: center;
+}
+
+.lines {
+  font-size: 14px;
+}
+
+
+img {
+  width: 10%;
+}
+
+.GoogleImage {
+  width: 7%;
+}
+
+.AppleImage {
+  width: 8%;
+}
+
+.google {
+margin-bottom: 1vh;
+background-color: transparent;
+border-color: lightgray;
+cursor: pointer;
+}
+
+.google:hover {
+  background-color: lightgray;
+}
+
+.apple {
+  margin-bottom: 1vh;
+  background-color: transparent;
+  border-color: lightgray;
+  cursor: pointer;
+  }
+
+.apple:hover {
+  background-color: lightgray;
+}
+
+.button__text{
+  font-family:fantasy ;
+  font-weight: 500;
+  font-size: 18px;
+}
