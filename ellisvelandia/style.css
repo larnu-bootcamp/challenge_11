@@ -1,0 +1,117 @@
+:root {
+  --colorbackground: rgb(85, 163, 171);
+  --colorbox: rgba(162, 178, 190, 0.733);
+  --colorbuttonlogin: rgb(1, 106, 243);
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 74vh;
+  background-color: var(--colorbackground);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(team.webp);
+  background-position: center center;
+  background-size: cover;
+}
+
+.login {
+  height: 600px;
+  position: absolute;
+}
+.title {
+  color: #fff;
+  display: flex;
+  justify-content: flex-start;
+  font-size: 40px;
+  margin-top: -30px;
+}
+.paragraph {
+  display: flex;
+  justify-content: flex-start;
+  color: black;
+}
+.form {
+  width: 450px;
+  position: absolute;
+  background-color: var(--colorbackground);
+  border: 5px solid var(--colorbackground);
+  border-radius: 10px;
+  padding: 80px 40px;
+  top: 220px;
+  left: 50%;
+  transform: translate(-50%);
+  text-align: center;
+  box-shadow: 5px 5px 5px var(--colorbox);
+  opacity: 0.9;
+}
+
+span {
+  display: flex;
+}
+.hrLinea{
+  vertical-align: middle;
+  width: 169px;
+  display: inline-block;
+  border: 1px solid #fff; 
+}
+
+.button-login {
+  color: #fff;
+  border-radius: 35px;
+  background-color: var(--colorbackground);
+  height: 5vh;
+  border: none;
+}
+.button-google {
+  color: #fff;
+  border-radius: 35px;
+  background-color: var(--colorbackground);
+  height: 5vh;
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.button-google img {
+  width: 35px;
+}
+
+.button-apple {
+  color: #fff;
+  border-radius: 35px;
+  background-color: var(--colorbackground);
+  height: 5vh;
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.button-apple img {
+  width: 40px;
+}
+
+.button-login:hover {
+  background-color: var(--colorbuttonlogin);
+}
+.button-google:hover {
+  background-color: var(--colorbuttonlogin);
+}
+.button-apple:hover {
+  background-color: var(--colorbuttonlogin);
+}
+
+.form input,
+label,
+button {
+  display: block;
+  width: 100%;
+  margin: 15px 0;
+  height: 4vh;
+  color: black;
+}
