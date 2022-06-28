@@ -15,7 +15,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-image: url(team.webp);
+  background-image: url(media/team.webp);
   background-position: center center;
   background-size: cover;
 }
