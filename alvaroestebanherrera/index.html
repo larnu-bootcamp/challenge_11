@@ -14,37 +14,35 @@
     rel="stylesheet"
   />
 </head>
-  <style>
-    body {
-      font-family: 'Press Start 2P', serif;
-      #font-size: 48px;
-    }
-  </style>
 <body>
   <div class="container">
-    <div>
-      <!--
-      <section class="form-sign-in title">
-        <h6>Sign In</h6>
-      </section>
--->
       <section class="form-sign-in">
         <h1>Sign in</h1>
-        <div class="stay-updated"><p>Stay updated on your professional world</p></div>
+        <div class="stay-updated">
+          <p>Stay updated on your professional world</p>
+        </div>
         <form title="Sign In">
           <input class="controls" type="email" name="mail" id="mail" placeholder="Email or Phone" required>
           <input class="controls" type="password" name="mail" id="pass" placeholder="Password" required>
-          <div class="form-forgot-password"><p><a href="#">Forgot password?</a></p></div>
+          <div class="form-forgot-password">
+            <p>
+              <a href="#">Forgot password?</a>
+            </p>
+          </div>
           <input class="blue-button" type="submit" value="Sign in">
         </form>
-        <div style="width: 100%; height: 20px; border-bottom: 1px solid black; text-align: center">
-          <p><span style="font-size: 40px; background-color: #F3F5F6; padding: 0 10px;">
-            Section Title <!--Padding is optional-->
+        <div class="or">
+          <p><span class="or-span">
+            or
           </p></span>
         </div>
-        <img class="user-photo" src="images/alien_icon.png" alt="LarnU" height="100%" width="100%">
+        <div class="google">
+          <input class="google-button" type="button" value="Sign in with Google">
+        </div>
+        <div class="apple">
+          <input class="apple-button" type="button" value="Sign in with Apple">
+        </div>
       </section>
-    </div>
   </div>
 </body>
 </html>
