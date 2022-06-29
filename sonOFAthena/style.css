@@ -20,58 +20,19 @@ body{
 }
 
 .form {
-  width: 200px;
-  height: 400px;
-  padding: 8%;
+  display: flex;
+  flex-direction: column;
+  width: 15%;
+  height: 44%;
+  padding: 30px;
   background-color: white;
   border-radius: 10px;
   box-shadow: 0px 0px 20px black;
 }
 
-
-.socialBtn {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
-
-.formSocial {
-  width: 100%;
-  position: relative;
-}
-
-.formSocial input {
-  width: 90%;
-  padding: 10px;
-  margin-bottom: 10px;
-  border: 1px solid grey;
-  padding-left: 35px !important;
-  border-radius: 20px;
-}
-
-.formSocial img {
-  position: absolute;
-  width: 20px;
-  height: 20px;
-  left: 0px;
-  top: 0px;
-  color: grey;
-  font-size: smaller;
-  margin: 9px !important;
-}
-
-.formSocial input::placeholder {
-  color: black;
-}
-
-.icon {
-  width: 30px;
-  height: 30px;
-  border-radius: 15px;
-  background-color: lavender;
-  margin: 5px;
-  line-height: 30px;
-  box-shadow: 0px 0px 10px black;
+.form h2 {
+  margin-block-start: 0px;
+  margin-block-end: 0px;
 }
 
 .text {
@@ -93,14 +54,16 @@ body{
 .formGroup {
   width: 100%;
   position: relative;
+  
 }
 
 .formGroup input {
-  width: 90%;
+  width: 100%;
   padding: 10px;
   margin-bottom: 10px;
   border: 1px solid grey;
   padding-left: 30px !important;
+  box-sizing: border-box;
 }
 
 .formGroup i {
@@ -143,18 +106,69 @@ input:focus{
 }
 
 
-.btn:hover, .icon:hover {
+.btn:hover {
   background-color: rgb(31, 91, 255);
   color: whitesmoke;
 }
 
 .show {
   position: absolute;
-  left: 170px;
+  /* left: 85%; */
+  right: 3px;
   top: 0px;
   color: blue;
   font-weight: bold;
   font-size: 11px;
   margin: 12px !important;
+}
+
+hr {
+  width: 100%;
+  overflow: visible;
+}
+
+/* Codigo de internet */
+.actions{
+  /* margin-top: 20px; */
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.actions .btn2{
+  width: 100%;
+  /* padding: 15px 20px; */
+  font-size: 13px;
+  border: 0px;
+  background-color: #fff;
+  border-radius: 50px;
+  /* margin-top: 15px; */
+
+  padding: 10px;
+  /* margin-top: 15px;
+  margin-bottom: 15px; */
+}
+
+.actions .btn-social{
+  background-color: white;
   cursor: pointer;
+  color: black;
+  border: 1px solid black;
+}
+.actions .btn-social:hover{
+  background-color: #0b0a38;
+  transition: .5s all ease;
+  color: white;
+}
+.actions .btn-social .icon {
+  display: flex;
+  /* vertical-align: middle; */
+  justify-content: center;
+  align-items: center;
+}
+.actions .btn-social .icon img{
+  width: 20px;
+  height: 20px;
+  object-fit: contain;
+  padding-right: 5px;
 }
