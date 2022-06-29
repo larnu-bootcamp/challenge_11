@@ -99,7 +99,7 @@ input {
 }
 
 .button--color {
-  background-color:var(--color-button);
+  background-color: var(--color-button);
   color: white;
   border: none;
   text-align: center;
