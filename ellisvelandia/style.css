@@ -54,11 +54,11 @@ body {
 span {
   display: flex;
 }
-.hrLinea{
+.hrLinea {
   vertical-align: middle;
   width: 169px;
   display: inline-block;
-  border: 1px solid #fff; 
+  border: 1px solid #fff;
 }
 
 .button-login {
