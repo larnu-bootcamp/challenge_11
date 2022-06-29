@@ -1,0 +1,29 @@
+form {
+  display: flex;
+  flex-direction: column;
+  gap: .8rem;
+}
+
+form label {
+  display: flex;
+  flex-direction: column;
+}
+
+input {
+  padding: .8rem;
+}
+
+form a {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: .8rem;
+  text-decoration: none;
+  color: var(--blue);
+}
+
+button {
+  background: var(--blue);
+  color: var(--white);
+  padding: .8rem;
+  border: 1px solid var(--blue);
+  border-radius: 2rem;
+}
