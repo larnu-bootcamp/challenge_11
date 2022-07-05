@@ -1,0 +1,135 @@
+:root {
+  --primaryColor: #0a66c2;
+  --secondaryColor: #0452a0;
+}
+
+html {
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica,
+    Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+.container {
+  height: 100%;
+  width: 100%;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.login__form {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+}
+
+.login {
+  width: 400px;
+  height: 580px;
+  box-shadow: 0px 0px 22px -9px rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  padding: 25px;
+}
+
+.login h1 {
+  margin-bottom: 0;
+  font-size: 32px;
+}
+
+.login p {
+  margin-bottom: 25px;
+}
+
+input {
+  width: 100%;
+  padding: 15px 10px;
+  margin-bottom: 15px;
+  border-radius: 5px;
+  border: #cccccc 1px solid;
+}
+
+input:active {
+  outline: none;
+}
+
+input:focus {
+  outline: none;
+  box-shadow: 0px 0px 1px 2px #0a66c2;
+}
+
+.login a {
+  text-align: left;
+  text-decoration: none;
+  font-weight: 700;
+  color: #0a66c2;
+  margin-bottom: 15px;
+}
+.login__form__btn {
+  border-radius: 50px;
+  background-color: var(--primaryColor);
+  color: #fff;
+  border: 0;
+  font-weight: 700;
+}
+
+.login__form__btn:hover {
+  background-color: var(--secondaryColor);
+}
+
+.login__divider {
+  display: flex;
+  align-items: center;
+}
+
+.login__divider hr {
+  width: 40%;
+}
+
+.login__divider p {
+  margin-top: 22px;
+}
+
+.login__options button {
+  display: block;
+  width: 100%;
+}
+
+button {
+  display: inline-block;
+  border-radius: 50px;
+  background-color: transparent;
+  border: 0;
+  font-weight: 700;
+  width: 100%;
+  padding: 13px;
+  margin-bottom: 15px;
+  border: #9c9c9c 1px solid;
+  vertical-align: text-bottom;
+}
+
+img {
+  width: 18px;
+  height: auto;
+  vertical-align: middle;
+}
+
+button:hover {
+  background-color: rgb(223, 222, 222);
+  border: #cccccc 1px solid;
+}
